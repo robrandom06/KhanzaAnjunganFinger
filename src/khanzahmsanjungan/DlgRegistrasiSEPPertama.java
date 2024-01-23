@@ -868,6 +868,11 @@ public class DlgRegistrasiSEPPertama extends javax.swing.JDialog {
 
         Catatan.setEditable(false);
         Catatan.setHighlighter(null);
+        Catatan.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CatatanActionPerformed(evt);
+            }
+        });
         Catatan.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 CatatanKeyPressed(evt);
@@ -2097,7 +2102,7 @@ public class DlgRegistrasiSEPPertama extends javax.swing.JDialog {
                         + "\"tglSep\": \"" + Valid.SetTgl(TanggalSEP.getSelectedItem() + "") + "\","
                         + "\"jnsPelayanan\": \"" + JenisPelayanan.getSelectedItem().toString().substring(0, 1) + "\","
                         + "\"jnsPengajuan\": \"2\","
-                        + "\"keterangan\": \"Pengajuan SEP Finger oleh Anjungan Mandiri RS Indriati Boyolali\","
+                        + "\"keterangan\": \"Pengajuan SEP Finger oleh Anjungan Mandiri RS Leona Kupang\","
                         + "\"user\": \"NoRM:" + TNoRM.getText() + "\""
                         + "}"
                         + "}"
@@ -2128,6 +2133,10 @@ public class DlgRegistrasiSEPPertama extends javax.swing.JDialog {
     private void btnDiagnosaAwal4KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_btnDiagnosaAwal4KeyPressed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnDiagnosaAwal4KeyPressed
+
+    private void CatatanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CatatanActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CatatanActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2770,7 +2779,7 @@ public class DlgRegistrasiSEPPertama extends javax.swing.JDialog {
                 isNumber();
                 Kdpnj.setText("BPJ");
                 nmpnj.setText("BPJS");
-                Catatan.setText("Anjungan Mandiri RS Indriati Boyolali");
+                Catatan.setText("Anjungan Mandiri RS Leona Kupang");
 
                 KdPoliTerapi.setText("");
                 NmPoliTerapi.setText("");
@@ -2898,7 +2907,7 @@ public class DlgRegistrasiSEPPertama extends javax.swing.JDialog {
                 isNumber();
                 Kdpnj.setText("BPJ");
                 nmpnj.setText("BPJS");
-                Catatan.setText("Anjungan Mandiri RS Indriati Boyolali");
+                Catatan.setText("Anjungan Mandiri RS Leona Kupang");
 
                 KdPoliTerapi.setText("");
                 NmPoliTerapi.setText("");
@@ -3014,7 +3023,7 @@ public class DlgRegistrasiSEPPertama extends javax.swing.JDialog {
                     isNumber();
                     Kdpnj.setText("BPJ");
                     nmpnj.setText("BPJS");
-                    Catatan.setText("Anjungan Mandiri RS Indriati Boyolali");
+                    Catatan.setText("Anjungan Mandiri RS Leona Kupang");
                     KdPoliTerapi.setText("");
                     NmPoliTerapi.setText("");
                     KodeDokterTerapi.setText("");
@@ -3120,7 +3129,7 @@ public class DlgRegistrasiSEPPertama extends javax.swing.JDialog {
                     isNumber();
                     Kdpnj.setText("BPJ");
                     nmpnj.setText("BPJS");
-                    Catatan.setText("Anjungan Mandiri RS Indriati Boyolali");
+                    Catatan.setText("Anjungan Mandiri RS Leona Kupang");
 
                 } else {
                     emptTeks();
@@ -3688,7 +3697,7 @@ public class DlgRegistrasiSEPPertama extends javax.swing.JDialog {
                 isNumber();
                 Kdpnj.setText("BPJ");
                 nmpnj.setText("BPJS");
-                Catatan.setText("Anjungan Mandiri RS Indriati Boyolali");
+                Catatan.setText("Anjungan Mandiri RS Leona Kupang");
 
                 KdPoliTerapi.setText("");
                 NmPoliTerapi.setText("");

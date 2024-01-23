@@ -31,7 +31,7 @@ public class HalamanUtamaDepan extends javax.swing.JFrame {
     public HalamanUtamaDepan() {
         initComponents();
         setExtendedState(MAXIMIZED_BOTH);
-        setIconImage(new ImageIcon(super.getClass().getResource("/picture/indriati48.png")).getImage());
+        setIconImage(new ImageIcon(super.getClass().getResource("/picture/leona48.png")).getImage());
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         this.setSize(screenSize.width, screenSize.height);
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
@@ -81,11 +81,10 @@ public class HalamanUtamaDepan extends javax.swing.JFrame {
         jPanel2.setForeground(new java.awt.Color(238, 238, 255));
 
         PanelWall.setBackground(new java.awt.Color(238, 238, 255));
-        PanelWall.setBackgroundImage(new javax.swing.ImageIcon(getClass().getResource("/picture/indriatikars.png"))); // NOI18N
-        PanelWall.setBackgroundImageType(usu.widget.constan.BackgroundConstan.BACKGROUND_IMAGE_STRECT);
+        PanelWall.setBackgroundImage(new javax.swing.ImageIcon(getClass().getResource("/picture/logoleona.png"))); // NOI18N
         PanelWall.setForeground(new java.awt.Color(238, 238, 255));
         PanelWall.setPreferredSize(new java.awt.Dimension(500, 150));
-        PanelWall.setRound(false);
+        PanelWall.setToolTipText("");
         PanelWall.setWarna(new java.awt.Color(238, 238, 255));
 
         javax.swing.GroupLayout PanelWallLayout = new javax.swing.GroupLayout(PanelWall);

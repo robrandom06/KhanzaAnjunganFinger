@@ -152,8 +152,7 @@ public class HalamanUtamaAntrian extends javax.swing.JFrame {
         jPanel2.setForeground(new java.awt.Color(238, 238, 255));
 
         PanelWall.setBackground(new java.awt.Color(238, 238, 255));
-        PanelWall.setBackgroundImage(new javax.swing.ImageIcon(getClass().getResource("/picture/indriatikars.png"))); // NOI18N
-        PanelWall.setBackgroundImageType(usu.widget.constan.BackgroundConstan.BACKGROUND_IMAGE_STRECT);
+        PanelWall.setBackgroundImage(new javax.swing.ImageIcon(getClass().getResource("/picture/logoleona.png"))); // NOI18N
         PanelWall.setForeground(new java.awt.Color(238, 238, 255));
         PanelWall.setPreferredSize(new java.awt.Dimension(500, 150));
         PanelWall.setRound(false);
